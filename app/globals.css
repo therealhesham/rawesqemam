@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.divbox{
+
+
+  display:"grid";
+  /* gred */
+
+align-items: "stretch";
+  /* row-gap: "4px"; */
+  grid-template-columns:"repeat(3, 12px)";
+  grid-template-rows:"repeat(3, auto)";
+  /* justify-content: center; */
+  justify-items: "center";
+  align-items: "center";
+  grid-row-gap: 1px;
+  justify-content: "space-between";
+grid-column-gap: 9px;
+
+
+}

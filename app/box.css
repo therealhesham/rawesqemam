@@ -1,0 +1,47 @@
+.pointer{
+
+
+    cursor: pointer;
+}
+
+.textcard  {
+
+    z-index: 99;
+ 
+    }
+.textcard  :hover{
+animation-name:padding;
+animation-duration: 5s;
+
+}
+.buttonshesham{
+
+
+    display: flex;
+    justify-content: center;
+/* align-self: center; */
+
+
+}
+
+@keyframes padding {
+    
+
+    0% {
+        z-index: 99;
+/* background-color: bisque; */
+margin-top: 0px;
+
+    }
+
+    50%{
+        z-index: 99;
+margin-top: 20px;
+
+    }
+    100%{
+        z-index: 99;
+margin-top: 50px;
+
+    }
+}

@@ -1,0 +1,25 @@
+.page {
+display: grid;
+min-height: 90%;
+grid-template-columns: 40% 60% ;
+/* grid-template-rows: 22% auto 22%; */
+column-gap: 50px;
+}
+
+.page{
+
+
+    
+}
+
+  .img{
+
+width: 100%;
+
+  }
+.img :hover  {
+width: 250%;
+    transition: width 2s;
+    /* /* cu  transition: width 2s; */
+
+}
